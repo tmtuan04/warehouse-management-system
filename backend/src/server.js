@@ -1,6 +1,7 @@
 import express from "express";
 import "dotenv/config";
 import { devLogger } from "./middlewares/morganLogger.js";
+import pool from "./lib/db.js";
 
 const port = process.env.PORT;
 
