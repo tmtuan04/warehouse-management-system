@@ -36,4 +36,4 @@ uploads/
 *.spec.js
 
 note.md
-/src/generated/prisma
+docs/images/*
